@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
 <div class="archive">
@@ -14,7 +14,7 @@ title: Home
 
         <ul>
             {% for post in group.items %}
-            <li><div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            <li><div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.baseurl }}{{ post.url }}" class="archive-item-link" title="{{post.title}}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
 

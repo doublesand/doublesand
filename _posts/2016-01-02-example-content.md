@@ -149,6 +149,20 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
+### mathjax
+
+$$
+\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial L}{\partial \dot{q}_j} \right ) = \frac {\partial L}{\partial q_j} 
+$$
+
+### video
+
+<video src="https://cdn-video.xinpianchang.com/5b7fc02a84108.mp4" controls preload> </video>
+
+### music
+
+<audio  src="http://music.163.com/song/media/outer/url?id=557581284.mp3" controls preload></audio>
+
 -----
 
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>

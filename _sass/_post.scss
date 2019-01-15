@@ -21,6 +21,7 @@
 .page-title,
 .post-title {
   margin-top: 0;
+  text-align: center;
 }
 
 // Meta data line below post title
@@ -29,5 +30,10 @@
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  text-align: center;
 }
+
+// mathjax
+.MathJax_Display{overflow-x:auto;overflow-y:hidden;}
+.MathJax{outline:0;}
 

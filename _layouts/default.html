@@ -12,7 +12,11 @@
             <div class="masthead">
                 <div class="container">
                     <h3 class="masthead-title">
-                        <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+                        {% if page.title == "Blog" %}
+                        <input class="page-search-input" type="text" placeholder="输入关键词搜索" />
+                        {% else %}
+                        <a href="{{ site.baseurl }}/" title="Blog">Blog</a>
+                        {% endif %}
                     </h3>
                 </div>
             </div>
