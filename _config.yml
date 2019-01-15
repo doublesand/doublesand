@@ -1,6 +1,6 @@
 title:        whenfung's blog            # 网站标题
 url:          https://dengwenfeng.com    # 网站地址
-baseurl:      ""                         # 相对位置
+baseurl:      "/doublesand"                         # 相对位置
 description:  whenfung's blog            # 网站描述
 permalink:    none                       # URL类型
 

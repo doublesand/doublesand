@@ -7,7 +7,7 @@
     </div>
 
     <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{% if page.url == "{{ site.baseutl }}/" %} active {% endif %}" href="{{ site.baseurl }}/">Home</a>
+        <a class="sidebar-nav-item{% if page.url == "{{ site.baseurl }}" %} active {% endif %}" href="{{ site.baseurl }}/">Home</a>
 
         <!-- page 布局的都是目录 -->
         {% assign pages_list = site.pages | sort:"url" %}
