@@ -4,10 +4,11 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  letter-spacing: -.025rem;
 }
 
 h1 {
@@ -106,3 +107,11 @@ a[href^="#fnref:"] {
   font-size: 85%;
 }
 
+// Custom type
+//
+// Extend paragraphs with `.lead` for larger introductory text.
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}

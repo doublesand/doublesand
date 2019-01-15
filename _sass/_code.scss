@@ -30,8 +30,8 @@ pre code {
 
 // Pygments via Jekyll
 .highlight {
+  margin: 0;
   padding: 1rem;
-  margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
   background-color: #f9f9f9;
@@ -44,7 +44,7 @@ pre code {
 
   .lineno {
     display: inline-block; // Ensures the null space also isn't selectable
-    padding-right: .75rem;
+    padding-right: .25rem;
     padding-left: .25rem;
     color: #999;
     // Make sure numbers aren't selectable
@@ -53,3 +53,6 @@ pre code {
     user-select: none;
   }
 }
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
