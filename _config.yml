@@ -1,0 +1,14 @@
+title:        whenfung's blog
+url:          https://dengwenfeng.com
+baseurl:      ""
+description:  whenfung's blog
+permalink:    none
+
+author:       whenfung
+email:        whenfung@gmail.com
+github:       doublesand
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
