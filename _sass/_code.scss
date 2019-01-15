@@ -30,7 +30,8 @@ pre code {
 
 // Pygments via Jekyll
 .highlight {
-  margin: 0;
+  margin-left: -1rem;
+  margin-right: -1rem;
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
@@ -56,7 +57,7 @@ pre code {
 
 @media (max-width: 480px) {
   .highlight{
-    padding: .25rem;
+    padding: 0;
   }
 }
 
