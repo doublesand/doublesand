@@ -1,14 +1,17 @@
-title:        whenfung's blog
-url:          https://dengwenfeng.com
-baseurl:      ""
-description:  whenfung's blog
-permalink:    none
+title:        whenfung's blog            # 网站标题
+url:          https://dengwenfeng.com    # 网站地址
+baseurl:      ""                         # 相对位置
+description:  whenfung's blog            # 网站描述
+permalink:    none                       # URL类型
 
-author:       whenfung
-email:        whenfung@gmail.com
-github:       doublesand
+author:       whenfung                   # 姓名
+email:        whenfung@gmail.com         # 邮箱
+github:       doublesand                 # github 账号
+
+analytics:    UA-131806880-1             # 谷歌分析
+disqus:       doublesand                 # disqus账号
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-feed                          # 订阅
+  - jekyll-seo-tag                       # SEO
+  - jekyll-sitemap                       # 站点地图
