@@ -3,6 +3,7 @@ url:          https://dengwenfeng.com    # 网站地址
 baseurl:      "/doublesand"                         # 相对位置
 description:  whenfung's blog            # 网站描述
 permalink:    none                       # URL类型
+lang:         en-us                      # 语言
 
 author:       whenfung                   # 姓名
 email:        whenfung@gmail.com         # 邮箱
